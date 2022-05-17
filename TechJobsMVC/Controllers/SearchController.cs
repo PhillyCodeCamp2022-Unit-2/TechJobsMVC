@@ -18,5 +18,7 @@ namespace TechJobsMVC.Controllers
         }
 
         // TODO #3: Create an action method to process a search request and render the updated search view. 
+        // what view should this Results method render? we should return View("Index") to re-render the Search/Index view, this time though
+        // we display all the resulting from the search
     }
 }
